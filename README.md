@@ -2,7 +2,7 @@ In this tutorial, we will be adding a feature to a previous project, the Faceboo
 
 The feature we'll be implementing is displaying user profile images. Once we're done, the app will look something like this:
 
-![login](img/Login.png)  ![call](img/call.png)
+![login](img/Login.png)  ![call](img/Call.png)
 
 # 1. Setup
 
