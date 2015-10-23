@@ -1,10 +1,12 @@
+#Build an iOS Facebook App to Call Your Friends: Part 2
+
 In this tutorial, we will be adding a feature to a previous project, the Facebook friend calling app. If you haven't already, you can check that tutorial out [here](https://github.com/sinch/ios-call-your-facebookfriends).
 
 The feature we'll be implementing is displaying user profile images. Once we're done, the app will look something like this:
 
 ![login](img/Login.png)  ![call](img/Call.png)
 
-# 1. Setup
+## 1. Setup
 
 Download the existing Facebook friend calling app from [Github](https://github.com/sinch/ios-call-your-facebookfriends) and install the necessary pods.
 
@@ -12,7 +14,7 @@ Then, be sure to create an app on your [Sinch Dashboard](https://www.sinch.com/d
 
 Finally, register your app on the [Facebook Developer Site](https://developers.facebook.com).
 
-# 2. Adding User Profile Picture
+## 2. Adding User Profile Picture
 
 First go to **LoginViewController.m** and add the following method:
 
@@ -43,7 +45,7 @@ if ([FBSDKAccessToken currentAccessToken]) {
 }
 ```
 
-# 3. Adding Call Profile Picture
+## 3. Adding Call Profile Picture
 
 This part will be very similar to the previous part, but we'll do two things differently
 
